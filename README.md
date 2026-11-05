@@ -1,15 +1,23 @@
 # Smart Attendance System
 
-A Python and Streamlit face-recognition attendance prototype using OpenCV LBPH and a lightweight SQLite database.
+🚀 **Live Demo:** https://smart-attendance-system-hbcntfy5bnppugjzzw7ax5.streamlit.app/
+
+A Python-based face recognition attendance system using OpenCV and SQLite.
 
 ## Features
-- Register a student with a unique ID, name, and webcam face image
-- Store student details and face image in SQLite (`attendance.db`)
-- Compare a captured face with registered student faces
-- Mark attendance with date and time
-- Prevent duplicate attendance for the same student on the same day
-- View registered students and delete a student
-- View and download attendance records as CSV
+- Student registration
+- Face detection and recognition
+- Automatic attendance marking
+- SQLite database for student records
+- Duplicate attendance prevention
+- Attendance history and CSV download
+
+## Technologies Used
+- Python
+- Streamlit
+- OpenCV
+- SQLite
+- Pandas
 
 ## Run locally
 ```bash
